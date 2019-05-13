@@ -4,7 +4,7 @@ from django.contrib.admin import widgets
 from django.db.models.signals import pre_save
 from django.utils.text import slugify
 from transliterate import translit
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 
 # from django.urls import reverse
